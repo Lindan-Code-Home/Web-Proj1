@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+
+body{ font-size:12px; color:#000; width:1050px;height: 564px; background-color:#FFF;}
+
+#body_center{ width: 1050px; margin:auto; height: 564px; margin:auto; background-color:#70a3be;}
+
+#topdiv{ position:relative; top: 34px; width:958px; left:41px; height: 72px; background-color:#381c0e;}
+
+#topdiv #topmark{ position:relative; top: 15px; width: 936px; margin:auto; height: 30px; background-color:rgb(201,177,139); font-family:Arial,Helvetica,sans-serif;  line-height:30px; vertical-align:middle; font-style:normal;font-weight:800;}
+
+#topdiv #topmark a{letter-spacing:-1px;color:rgb(0,84,128); padding-left:5px; padding-right:5px; text-decoration:none;font-size:92%;font-weight:800;}
+#topdiv #topmark p{color:rgb(0,84,128); font-size:13px;font-weight:100; letter-spacing:1px;}
+
+
+#bottmdiv{ position: relative; top: 35px; width: 958px; left:41px; height: 342px;  background-color:#cab28e;}
+
+#bottmdiv #blocktop{  position: relative; top: 8px; width: 942px; margin:auto; height: 158px; margin:auto; background-color:#70a3be;}
+#bottmdiv #blocktop p{ font-size:34px; text-align:right; padding-top:8px; padding-right:33px; color:rgb(0,84,128); font-weight:600;font-family:Arial,Helvetica,sans-serif;}
+
+#bottmdiv #blockbottom{  position: relative; top: 15px; width: 942px; margin:auto; height: 160px; margin:auto; background-color:#FFF;}
+
+#bottmdiv #blockbottom #tableregion{position: absolute;  width: 942px; height: 100px; margin:auto;}
+
+#bottmdiv #blockbottom #tableregion .record{ font-size: 4px;text-align:left;  padding:26px 20px 10px 10px;}
+#bottmdiv #blockbottom #tableregion .record a{ color:rgb(0,84,128);font-family:Arial,Helvetica,sans-serif;}
+
+#bottmdiv #blockbottom #tableregion .record .newfont{font-size:14px; line-height:30px; font-weight:500;color:#000;font-family:Tahoma, Geneva, sans-serif;}
+
+#bottmdiv #blockbottom #tableregion .record tr{}
+#bottmdiv #blockbottom #tableregion .record th{color:rgb(0,84,128);line-height:30px; font-size:12px; border-bottom:solid #7b829e; border-bottom-width:2px; font-weight:500;font-family:Tahoma, Geneva, sans-serif;}
+
+#bottmdiv #blockbottom #tableregion .record td{color:rgb(0,84,128);line-height:30px; font-size:12px; border-bottom:solid #7b829e; border-bottom-width:2px; font-weight:500;font-family:Tahoma, Geneva, sans-serif; }
+
+.hyperlink{ font-size:18px; width:600px; height:1000px;}
